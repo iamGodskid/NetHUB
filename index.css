@@ -1,0 +1,110 @@
+body{
+  background: rgb(220,220,220);
+background-image: url('download.jpeg');
+background-size: cover;
+width: 100%;
+  padding: 30px;
+  border: darkslategrey;
+}
+.head{
+  margin: auto;
+  position: fixed;
+  top: 0px;
+  left:20px; 
+  right: 20px;
+  background: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+nav{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav>a{
+  font-family: Monospace;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+.link{
+  height: 50px;
+  background: transparent;
+  border: 1px solid transparent;
+text-align: center;
+border-bottom: 1px solid dodgerblue;
+}
+.link>i{
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.sp{
+  padding: 5px;
+  border-right: 1px solid dodgerblue;
+}
+.sp>i{
+  padding: 10px;
+  color: white;
+  background: dodgerblue;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sp>strong{
+ font-family: Monospace;
+ font-size: 18px;
+}
+.htag{
+  width: 90%;
+  padding: 5px;
+}
+.htag>i{
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  background: dodgerblue;
+  font-size: 30px;
+  margin-right: 10px;
+  float: left;
+}
+.htag>span{
+  font-family: Monospace;
+  color: black;
+  font-weight: bold;
+}
+.latest{
+  margin-bottom: 10px;
+}
+.post{
+  text-align: justify;
+  font-family: Times New Roman;
+  font-size: 15px;
+}
+.extra{
+  height: fit-content;
+  background: dodgerblue;
+  color: white;
+  width: 95%;
+  padding: 8px;
+  border-radius: 5px;
+}
+.extra>strong{
+  color: white;
+  font-family: Monospace;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.extra>span{
+  margin-bottom: 10px;
+}
+.dload{
+  padding: 10px;
+  background: white;
+  color: dodgerblue;
+  border: 1px solid transparent;
+border-radius: 5px;
+}
